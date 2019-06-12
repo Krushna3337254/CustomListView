@@ -1,8 +1,10 @@
 package com.example.krushnanrathod.customlistview;
 
 
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -25,5 +27,7 @@ public class MainActivity extends AppCompatActivity {               //List view 
 
         MyAdapter myAdapter=new MyAdapter(this, R.layout.items,punjabi);
         simplelist.setAdapter( myAdapter );
+
     }
+
 }
